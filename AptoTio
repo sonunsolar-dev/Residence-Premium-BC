@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apartamento Alto Padrão em Balneário Camboriú</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat', sans-serif;
+    color:#222;
+    line-height:1.6;
+    background:#fff;
+}
+
+h1,h2,h3{
+    font-family:'Playfair Display', serif;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url('foto-capa.jpg');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:16px 35px;
+    background:#c9a96a;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#b28f50;
+}
+
+.section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:3rem;
+    color:#111;
+}
+
+.section-title p{
+    color:#777;
+    margin-top:15px;
+}
+
+.highlights{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    padding:35px;
+    border:1px solid #eee;
+    border-radius:12px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#c9a96a;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.investment{
+    background:#111;
+    color:#fff;
+}
+
+.investment h2{
+    color:#fff;
+}
+
+.investment-content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.investment img{
+    width:100%;
+    border-radius:12px;
+}
+
+.investment ul{
+    margin-top:25px;
+}
+
+.investment li{
+    margin-bottom:12px;
+}
+
+.luxury{
+    background:#f8f8f8;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.feature{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+}
+
+.feature h3{
+    margin-bottom:12px;
+    color:#c9a96a;
+}
+
+.contact{
+    background:
+    linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+    url('foto-final.jpg');
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+}
+
+.contact h2{
+    color:#fff;
+}
+
+.form{
+    max-width:700px;
+    margin:40px auto 0;
+}
+
+.form input,
+.form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+}
+
+.form button{
+    width:100%;
+    padding:16px;
+    border:none;
+    background:#c9a96a;
+    color:#fff;
+    font-size:1rem;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+footer{
+    background:#000;
+    color:#aaa;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.investment-content{
+    grid-template-columns:1fr;
+}
+
+.section-title h2{
+    font-size:2.2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Exclusividade a 50 Metros do Mar</h1>
+
+<p>
+Um apartamento de alto padrão em Balneário Camboriú, localizado em andar elevado,
+com vista privilegiada e acesso imediato à praia.
+</p>
+
+<a href="#contato" class="btn">
+Solicitar Informações Exclusivas
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<div class="section-title">
+<h2>O Imóvel</h2>
+<p>Conforto, sofisticação e localização incomparável.</p>
+</div>
+
+<div class="highlights">
+
+<div class="card">
+<h3>4 Suítes</h3>
+<p>Ambientes amplos, privativos e planejados para máximo conforto.</p>
+</div>
+
+<div class="card">
+<h3>3 Vagas</h3>
+<p>Garagem espaçosa para toda a família e visitantes.</p>
+</div>
+
+<div class="card">
+<h3>Sacada Gourmet</h3>
+<p>Churrasqueira integrada para momentos especiais.</p>
+</div>
+
+<div class="card">
+<h3>Andar Alto</h3>
+<p>Mais privacidade, exclusividade e valorização.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section luxury">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Galeria do Imóvel</h2>
+<p>Substitua as imagens abaixo pelas fotos reais do apartamento.</p>
+</div>
+
+<div class="gallery">
+
+<img src="foto1.jpg" alt="">
+<img src="foto2.jpg" alt="">
+<img src="foto3.jpg" alt="">
+<img src="foto4.jpg" alt="">
+<img src="foto5.jpg" alt="">
+<img src="foto6.jpg" alt="">
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Estrutura de Lazer Diferenciada</h2>
+<p>Um verdadeiro resort privado para seus moradores.</p>
+</div>
+
+<div class="features">
+
+<div class="feature">
+<h3>Piscina Coberta Aquecida</h3>
+<p>Conforto e lazer durante todas as estações do ano.</p>
+</div>
+
+<div class="feature">
+<h3>Piscina Meio Olímpica</h3>
+<p>Ideal para prática esportiva e relaxamento.</p>
+</div>
+
+<div class="feature">
+<h3>Sauna Seca</h3>
+<p>Bem-estar e qualidade de vida no seu dia a dia.</p>
+</div>
+
+<div class="feature">
+<h3>Área Gourmet</h3>
+<p>Espaços sofisticados para receber convidados.</p>
+</div>
+
+<div class="feature">
+<h3>Salão de Festas</h3>
+<p>Eventos especiais com infraestrutura completa.</p>
+</div>
+
+<div class="feature">
+<h3>Área de Convivência</h3>
+<p>Ambientes planejados para lazer e integração.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section investment">
+
+<div class="container">
+
+<div class="investment-content">
+
+<div>
+
+<h2>Uma Oportunidade Rara de Investimento</h2>
+
+<p>
+Balneário Camboriú é reconhecida como uma das cidades mais valorizadas do Brasil,
+atraindo investidores, empresários e famílias que buscam qualidade de vida,
+segurança patrimonial e valorização contínua.
+</p>
+
+<ul>
+<li>✓ Apenas 50 metros da praia</li>
+<li>✓ Região nobre e altamente desejada</li>
+<li>✓ Forte valorização imobiliária histórica</li>
+<li>✓ Escassez de imóveis de alto padrão próximos ao mar</li>
+<li>✓ Excelente potencial de rentabilidade e patrimônio</li>
+</ul>
+
+</div>
+
+<div>
+<img src="foto-investimento.jpg" alt="">
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Localização Privilegiada</h2>
+
+<p>
+Próximo aos melhores restaurantes, beach clubs,
+centros comerciais, marinas e toda a infraestrutura
+que faz de Balneário Camboriú um dos destinos mais desejados da América do Sul.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contato" class="section contact">
+
+<div class="container">
+
+<h2>Solicite Mais Informações</h2>
+
+<p>
+Agende uma visita privada e conheça todos os detalhes deste imóvel exclusivo.
+</p>
+
+<form class="form">
+
+<input type="text" placeholder="Nome">
+
+<input type="tel" placeholder="Telefone">
+
+<input type="email" placeholder="E-mail">
+
+<textarea rows="5" placeholder="Mensagem"></textarea>
+
+<button type="submit">
+Quero Receber Informações
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+Apartamento Alto Padrão • Balneário Camboriú • Santa Catarina • Brasil
+</p>
+
+</footer>
+
+</body>
+</html>
