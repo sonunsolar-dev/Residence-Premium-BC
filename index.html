@@ -738,7 +738,6 @@
     </div>
   </div>
 </section>
-
 <!-- ══════════ CONTATO ══════════ -->
 <section id="contato">
   <div class="contato-inner">
@@ -749,9 +748,9 @@
     </div>
 
     <form class="contact-form reveal reveal-delay-1" onsubmit="handleSubmit(event)">
-      <input type="text" placeholder="Seu nome" required />
-      <input type="tel" placeholder="WhatsApp com DDD" required />
-      <textarea rows="4" placeholder="Escreva aqui suas dúvidas e deixe seu whatsapp para contato. Atenção contato de corretores de imóveis será desconsiderado. Obrigado."></textarea>
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="tel" name="whatsapp" placeholder="WhatsApp com DDD" required />
+      <textarea name="mensagem" rows="4" placeholder="Escreva aqui suas dúvidas e deixe seu whatsapp para contato. Atenção: contato de corretores de imóveis será desconsiderado. Obrigado."></textarea>
       <button type="submit" class="btn-primary">Deixe seu número para falar com o proprietário</button>
     </form>
   </div>
@@ -762,6 +761,7 @@
   <div class="footer-logo">Apartamento Exclusivo · BC</div>
   <div class="footer-copy">© 2026 — Todos os direitos reservados</div>
 </footer>
+
 <script>
   // Reveal on scroll
   const reveals = document.querySelectorAll('.reveal');
@@ -816,3 +816,4 @@
 </script>
 </body>
 </html>
+
